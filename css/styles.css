@@ -74,7 +74,7 @@ svg {
 /*-------------------end reset styles------------------*/
 
 /* ============= LOGO ============= */
-.logo {
+/*.logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -93,7 +93,7 @@ svg {
 
 .logo-dark-theme {
   color: #ffffff;
-}
+}*/
 
 /* ============= END LOGO ============= */
 
@@ -638,10 +638,10 @@ svg {
   margin-bottom: 9px;
 }
 
-.logo-footer {
+/*.logo-footer {
   display: block;
   margin-bottom: 30px;
-}
+}*/
 
 .social-icon-container {
   width: 44px;
