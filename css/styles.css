@@ -1,5 +1,5 @@
 /*-------------------pages colors------------------*/
-/*:root {
+:root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
@@ -20,12 +20,12 @@ body {
   color: var(--basic-content-color);
   font-weight: 400;
   letter-spacing: 0.03em;
-}*/
+}
 /*------------------- end pages colors------------------*/
 
 /*------------------- reset styles------------------*/
 
-/*.address {
+.address {
   font-style: normal;
   margin-left: auto;
   display: flex;
@@ -50,12 +50,12 @@ a {
 img,
 svg {
   display: block;
-}*/
+}
 
-/*.visually-hidden {
+.visually-hidden {
   position: absolute !important;
-  clip: rect(1px 1px 1px 1px);*/ /* IE6, IE7 */
-/*clip: rect(1px, 1px, 1px, 1px);
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
   padding: 0 !important;
   border: 0 !important;
   height: 1px !important;
@@ -69,12 +69,12 @@ svg {
   padding-left: 15px;
   padding-right: 15px;
   align-items: center;
-}*/
+}
 
 /*-------------------end reset styles------------------*/
 
 /* ============= LOGO ============= */
-/*.logo {
+.logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -93,12 +93,12 @@ svg {
 
 .logo-dark-theme {
   color: #ffffff;
-}*/
+}
 
 /* ============= END LOGO ============= */
 
 /* ============= COMPONENTS ============= */
-/*.modal-button {
+.modal-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -133,13 +133,13 @@ svg {
 
 .modal-button-item:not(:first-child) {
   margin-left: 8px;
-}*/
+}
 
 /* ============= END COMPONENTS ============= */
 
 /* ============= HEADER ============= */
 
-/*.header {
+.header {
   padding-top: 24px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
@@ -232,7 +232,7 @@ svg {
   height: 16px;
   fill: currentColor;
   margin-right: 10px;
-}*/
+}
 
 /* ============= END HEADER ============= */
 
@@ -368,7 +368,6 @@ svg {
 }
 
 .img-about {
-  flex-basis: calc (100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
   position: relative;
@@ -638,10 +637,10 @@ svg {
   margin-bottom: 9px;
 }
 
-/*.logo-footer {
+.logo-footer {
   display: block;
   margin-bottom: 30px;
-}*/
+}
 
 .social-icon-container {
   width: 44px;
@@ -973,4 +972,4 @@ svg {
   color: var(--accent-color);
   text-decoration: underline;
 }
-/* =============END WINDOWS ============= */ ;
+/* =============END WINDOWS ============= */
