@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-.clients-item {
+.list-customers__clients {
   width: 170px;
   height: 90px;
   border: 1px solid var(--common-grey);
@@ -31,16 +31,16 @@
   transition: border-color var(--timing-function) var(--duration);
 }
 
-.clients-item:hover .clients-link,
-.clients-item:focus .clients-link {
+.list-customers__clients:hover .list-customers__link,
+.list-customers__clients:focus .list-customers__link {
   fill: var(--accent-color);
 }
-.clients-item:hover,
-.clients-item:focus {
+.list-customers__clients:hover,
+.list-customers__clients:focus {
   border-color: var(--accent-color);
 }
 
-.clients-link {
+.list-customers__link {
   fill: var(--common-grey);
   transition: var(--timing-function) var(--duration);
 }
