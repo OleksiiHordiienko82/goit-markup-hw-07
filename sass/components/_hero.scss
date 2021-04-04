@@ -19,11 +19,11 @@
     background-color var(--timing-function) var(--duration);
 
   color: #ffffff;
-}
 
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
 
 .hero-title {

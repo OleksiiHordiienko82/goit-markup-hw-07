@@ -29,15 +29,16 @@
   justify-content: center;
   align-items: center;
   transition: border-color var(--timing-function) var(--duration);
-}
 
-.list-customers__clients:hover .list-customers__link,
-.list-customers__clients:focus .list-customers__link {
-  fill: var(--accent-color);
-}
-.list-customers__clients:hover,
-.list-customers__clients:focus {
-  border-color: var(--accent-color);
+  &:hover .list-customers__link,
+  &:focus .list-customers__link {
+    fill: var(--accent-color);
+  }
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .list-customers__link {
