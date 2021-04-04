@@ -1,7 +1,8 @@
 .list-modal-button__filter {
-  font-weight: 500;
+  @include font(500, 16px, 1.62);
+  /*font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.62;*/
   letter-spacing: 0.03em;
   cursor: pointer;
   padding: 10px 32px;
@@ -209,9 +210,10 @@
 
 .modal-form-btn {
   display: block;
-  font-weight: 700;
+  @include font(700, 16px, 1.85);
+  /*font-weight: 700;
   font-size: 16px;
-  line-height: 1.85;
+  line-height: 1.85;*/
   text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);

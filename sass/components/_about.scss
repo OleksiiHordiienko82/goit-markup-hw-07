@@ -87,10 +87,10 @@
   align-items: center;
   display: flex;
   padding: 27px;
-  @include font(700, 14px, 1, 142);
+  @include font(700, 14px, 1);
   /*font-weight: 700;
   font-size: 14px;
-  line-height: 1, 142;*/
+  line-height: 1;*/
 
   letter-spacing: 0.03em;
   text-transform: uppercase;
