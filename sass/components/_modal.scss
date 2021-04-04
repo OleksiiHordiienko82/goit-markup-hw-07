@@ -155,16 +155,14 @@
   resize: none;
   transition: border-color var(--duration) var(--timing-function);
   margin-bottom: 25px;
-}
-
-.modal-form-message::placeholder {
-  color: rgba(117, 117, 117, 0.5);
-}
-
-.modal-form-message:hover,
-.modal-form-message:focus {
-  outline: none;
-  border-color: var(--accent-color);
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
+  &:hover,
+  &:focus {
+    outline: none;
+    border-color: var(--accent-color);
+  }
 }
 
 .modal-title {
@@ -185,31 +183,28 @@
   font-size: 14px;
   display: flex;
   align-items: center;
-}
-
-.modal-form-check-desk::before {
-  display: block;
-  content: "";
-  width: 16px;
-  height: 16px;
-  border: 2px solid #212121;
-  border-radius: 2px;
-  cursor: pointer;
-  margin-right: 8px;
-}
-
-.modal-form-term:checked + .modal-form-check-desk::before {
-  background-image: url(../images/modal/Vector.svg);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  border: 2px solid var(--accent-color);
-  border-radius: 2px;
-  background-color: var(--accent-color);
-}
-
-.modal-form-term:focus + .modal-form-check-desk::before {
-  outline: 2px solid var(--accent-color);
+  &::before {
+    display: block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border: 2px solid #212121;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  .modal-form-term:checked + &::before {
+    background-image: url(../images/modal/Vector.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid var(--accent-color);
+    border-radius: 2px;
+    background-color: var(--accent-color);
+  }
+  .modal-form-term:focus + &::before {
+    outline: 2px solid var(--accent-color);
+  }
 }
 
 .modal-form-btn {
@@ -233,11 +228,10 @@
     background-color var(--timing-function) var(--duration);
 
   color: #ffffff;
-}
-
-.modal-form-btn:hover,
-.modal-form-btn:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
 
 .policy-link {

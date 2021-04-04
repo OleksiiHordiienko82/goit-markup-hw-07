@@ -81,11 +81,11 @@ svg {
 }
 
 .logo_light_theme {
-  color: #212121;
+  color: var(--basic-headers-color);
 }
 
 .logo_dark_theme {
-  color: #ffffff;
+  color: var(--primary-background-color);
 }
 
 .list-modal-button__filter {
@@ -239,8 +239,7 @@ svg {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-form-message:hover,
-.modal-form-message:focus {
+.modal-form-message:hover, .modal-form-message:focus {
   outline: none;
   border-color: var(--accent-color);
 }
@@ -308,8 +307,7 @@ svg {
   color: #ffffff;
 }
 
-.modal-form-btn:hover,
-.modal-form-btn:focus {
+.modal-form-btn:hover, .modal-form-btn:focus {
   background-color: #188ce8;
 }
 
@@ -583,6 +581,10 @@ svg {
   transition: box-shadow var(--duration) var(--timing-function);
 }
 
+.list-cards__item:hover, .list-cards__item:focus, .list-cards__item:active {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .cards-list-content-wrapper {
   padding: 20px 24px;
   background-color: white;
@@ -621,12 +623,6 @@ svg {
 .list-cards__item a:hover .portfolio-list-overlay,
 .list-cards__item a:focus .portfolio-list-overlay {
   transform: translateY(0);
-}
-
-.list-cards__item:hover,
-.list-cards__item:focus,
-.list-cards__item:active {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .our-team-title {
@@ -673,21 +669,9 @@ svg {
   justify-content: center;
 }
 
-/*.team-icon-container-img {
-  width: 20px;
-  height: 20px;
-}*/
 .team-icon-container-img use {
   fill: var(--common-grey);
   transition: fill var(--timing-function) var(--duration);
-}
-
-.team-icon-container:hover .team-icon-container-img use {
-  fill: var(--primary-background-color);
-}
-
-.team-icon-container:not(:last-child) {
-  margin-right: 10px;
 }
 
 .team-icon-container {
@@ -700,10 +684,17 @@ svg {
   transition: background-color var(--timing-function) var(--duration);
 }
 
-.team-icon-container:hover,
-.team-icon-container:focus {
+.team-icon-container:hover, .team-icon-container:focus {
   background-color: var(--accent-color);
   cursor: pointer;
+}
+
+.team-icon-container:hover .team-icon-container-img use {
+  fill: var(--primary-background-color);
+}
+
+.team-icon-container:not(:last-child) {
+  margin-right: 10px;
 }
 
 .customers {

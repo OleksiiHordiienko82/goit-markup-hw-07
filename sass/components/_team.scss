@@ -43,22 +43,11 @@
   justify-content: center;
 }
 
-/*.team-icon-container-img {
-  width: 20px;
-  height: 20px;
-}*/
-
 .team-icon-container-img use {
   fill: var(--common-grey);
   transition: fill var(--timing-function) var(--duration);
 }
 
-.team-icon-container:hover .team-icon-container-img use {
-  fill: var(--primary-background-color);
-}
-.team-icon-container:not(:last-child) {
-  margin-right: 10px;
-}
 .team-icon-container {
   width: 44px;
   height: 44px;
@@ -67,10 +56,15 @@
   justify-content: center;
   align-items: center;
   transition: background-color var(--timing-function) var(--duration);
-}
-
-.team-icon-container:hover,
-.team-icon-container:focus {
-  background-color: var(--accent-color);
-  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    cursor: pointer;
+  }
+  &:hover .team-icon-container-img use {
+    fill: var(--primary-background-color);
+  }
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }

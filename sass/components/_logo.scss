@@ -12,9 +12,9 @@
 }
 
 .logo_light_theme {
-  color: #212121;
+  color: var(--basic-headers-color);
 }
 
 .logo_dark_theme {
-  color: #ffffff;
+  color: var(--primary-background-color);
 }

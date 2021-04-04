@@ -16,6 +16,10 @@
   transition: box-shadow var(--duration) var(--timing-function);
 }
 
+.list-cards__item:hover, .list-cards__item:focus, .list-cards__item:active {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .cards-list-content-wrapper {
   padding: 20px 24px;
   background-color: white;
@@ -54,11 +58,5 @@
 .list-cards__item a:hover .portfolio-list-overlay,
 .list-cards__item a:focus .portfolio-list-overlay {
   transform: translateY(0);
-}
-
-.list-cards__item:hover,
-.list-cards__item:focus,
-.list-cards__item:active {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /*# sourceMappingURL=projects.css.map */
