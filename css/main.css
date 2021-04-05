@@ -83,11 +83,11 @@ svg {
   margin-right: 93px;
 }
 
-.logo_light_theme {
+.logo_light {
   color: var(--basic-headers-color);
 }
 
-.logo_dark_theme {
+.logo_dark {
   color: var(--primary-background-color);
 }
 
@@ -347,7 +347,7 @@ svg {
   align-items: center;
 }
 
-.nav-list__nav-link {
+.nav-list__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -359,15 +359,15 @@ svg {
   color: var(--basic-headers-color);
 }
 
-.nav-list__nav-link:hover, .nav-list__nav-link:focus {
+.nav-list__link:hover, .nav-list__link:focus {
   color: var(--accent-color);
 }
 
-.nav-list__nav-item:not(:last-child) {
+.nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav-list__nav-item .active-link::after {
+.nav-list__item .active-link::after {
   display: block;
   content: "";
   position: absolute;
@@ -380,7 +380,7 @@ svg {
   top: 15px;
 }
 
-.nav-list__nav-item .active-link {
+.nav-list__item .active-link {
   position: relative;
 }
 

@@ -19,7 +19,7 @@
   align-items: center;
 }
 
-.nav-list__nav-link {
+.nav-list__link {
   @include font(500, 14px, 1.14);
   /*font-weight: 500;
   font-size: 14px;
@@ -35,11 +35,11 @@
   }
 }
 
-.nav-list__nav-item:not(:last-child) {
+.nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav-list__nav-item .active-link::after {
+.nav-list__item .active-link::after {
   display: block;
   content: "";
   position: absolute;
@@ -52,7 +52,7 @@
   top: 15px;
 }
 
-.nav-list__nav-item .active-link {
+.nav-list__item .active-link {
   position: relative;
 }
 
