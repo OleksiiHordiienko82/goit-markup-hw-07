@@ -16,13 +16,13 @@
   margin-bottom: 50px;
 }
 
-.list-customers {
+.customers-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.list-customers__clients {
+.customers-list__link {
   width: 170px;
   height: 90px;
   border: 1px solid var(--common-grey);
@@ -32,8 +32,8 @@
   align-items: center;
   transition: border-color var(--timing-function) var(--duration);
 
-  &:hover .list-customers__link,
-  &:focus .list-customers__link {
+  &:hover .customers-list__icon,
+  &:focus .customers-list__icon {
     fill: var(--accent-color);
   }
 
@@ -43,7 +43,7 @@
   }
 }
 
-.list-customers__link {
+.customers-list__icon {
   fill: var(--common-grey);
   transition: var(--timing-function) var(--duration);
 }
