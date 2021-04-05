@@ -8,7 +8,7 @@
   color: var(--basic-headers-color);
 }
 
-.titles {
+.about-list__title {
   @include font(700, 14px, 1.14);
   /*font-weight: 700;
   font-size: 14px;
@@ -39,17 +39,17 @@
   color: var(--basic-content-color);
 }
 
-.list-about {
+.about-list {
   display: flex;
   justify-content: space-between;
   margin-left: -30px;
 }
 
-.list-about__text {
+.about-list__item {
   margin-left: 30px;
 }
 
-.list-about-icon-container {
+.about-list__tool {
   width: 270px;
   height: 120px;
   background-color: var(--third-background-color);

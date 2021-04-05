@@ -39,7 +39,7 @@
   margin-right: 50px;
 }
 
-.nav-list__item .active-link::after {
+.nav-list__item .nav-list__link-active::after {
   display: block;
   content: "";
   position: absolute;
@@ -52,11 +52,11 @@
   top: 15px;
 }
 
-.nav-list__item .active-link {
+.nav-list__item .nav-list__link-active {
   position: relative;
 }
 
-.active-link {
+.nav-list__link-active {
   color: var(--accent-color);
 }
 
@@ -77,7 +77,7 @@
   }
 }
 
-.address__link-list:not(:last-child) {
+.address__item:not(:last-child) {
   margin-right: 50px;
 }
 
